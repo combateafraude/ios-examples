@@ -94,7 +94,7 @@ public protocol FaceAuthenticatorCustomViewDelegate {
 }
 @objc @_hasMissingDesignatedInitializers public class FaceAuthenticator : ObjectiveC.NSObject, Swift.Encodable {
   public static var SDK_NAME: Swift.String
-  public var peopleId: Swift.String!
+  public var personId: Swift.String!
   public var mobileToken: Swift.String!
   public var useAnalytics: Swift.Bool!
   public var requestTimeout: Foundation.TimeInterval!
@@ -109,7 +109,7 @@ public protocol FaceAuthenticatorCustomViewDelegate {
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
-    public func setPeopleId(_ peopleId: Swift.String) -> FaceAuthenticator.FaceAuthenticator.Builder
+    public func setPersonId(_ personId: Swift.String) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setAnalyticsSettings(useAnalytics: Swift.Bool!) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setNetworkSettings(requestTimeout: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setColorTheme(color: UIKit.UIColor) -> FaceAuthenticator.FaceAuthenticator.Builder

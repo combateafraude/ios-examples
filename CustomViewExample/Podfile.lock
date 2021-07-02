@@ -1,10 +1,10 @@
 PODS:
-  - DocumentDetector (4.4.6):
+  - DocumentDetector (4.5.0):
     - Sentry (= 7.1.3)
     - TensorFlowLiteSwift (= 2.4.0)
-  - FaceAuthenticator (2.3.2):
+  - FaceAuthenticator (2.4.0):
     - Sentry (= 7.1.3)
-  - PassiveFaceLiveness (3.3.9):
+  - PassiveFaceLiveness (3.4.0):
     - Sentry (= 7.1.3)
   - Sentry (7.1.3):
     - Sentry/Core (= 7.1.3)
@@ -37,9 +37,9 @@ EXTERNAL SOURCES:
     :path: Modules/PassiveFaceLiveness
 
 SPEC CHECKSUMS:
-  DocumentDetector: 7fece3fc3b149d65a7389148f681c96707f275f4
-  FaceAuthenticator: 9943a4f88418a9bfb4cc4652ea076417000a940f
-  PassiveFaceLiveness: 3553f349e94ceef9d626ab1f114f8a4d9ed890a8
+  DocumentDetector: 3f7040e100c67997e6a0d88ce943119f05ad16da
+  FaceAuthenticator: d70f301830e8880fdd099632b4a891e3ef7f7a23
+  PassiveFaceLiveness: 02a1a3f5bdc811a8b4d4e03a3a03f1e3198f6e6a
   Sentry: 6d963d64804dd06d96e778be729613f481394312
   TensorFlowLiteC: 09f8ac75a76caeadb19bcfa694e97454cc1ecf87
   TensorFlowLiteSwift: f062dc1178120100d825d7799fd9f115b4a37fee
