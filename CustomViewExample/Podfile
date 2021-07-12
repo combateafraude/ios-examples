@@ -1,16 +1,13 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '11.0'
 
-$modules_path = 'Modules/'
-
 target 'CustomViewExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for CustomViewExample
-  pod 'DocumentDetector', :path => $modules_path + 'DocumentDetector'
-  pod 'PassiveFaceLiveness', :path => $modules_path + 'PassiveFaceLiveness'
-  pod 'FaceAuthenticator', :path => $modules_path + 'FaceAuthenticator'
+  pod 'DocumentDetector', '~> 4.5.0'
+  pod 'PassiveFaceLiveness', '~> 3.4.0'
 
   target 'CustomViewExampleTests' do
     inherit! :search_paths
@@ -22,3 +19,6 @@ target 'CustomViewExample' do
   end
 
 end
+
+source 'https://github.com/combateafraude/iOS.git'
+source 'https://cdn.cocoapods.org/' # ou 'https://github.com/CocoaPods/Specs' se o CDN estiver fora do ar
